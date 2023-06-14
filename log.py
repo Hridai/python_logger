@@ -20,7 +20,6 @@ def setup(name):
                                                 backupCount = 2,
                                                 encoding = None,
                                                 delay = 0)
-    logger.addHandler(rfh)
     logging.basicConfig(format='%(asctime)s [%(filename)s:%(lineno)d] %(levelname).4s | %(message)s',
                         datefmt='%Y-%m-%d %H:%M:%S',
                         level=logging.INFO,
