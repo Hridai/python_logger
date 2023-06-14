@@ -10,7 +10,7 @@ Directory will need to be set in the `log.py` file
 ```python
 import log
 
-logger = log.setup('root')
+logger = log.setup('root') # use in each file you wish to log.
 
 if __name__ == '__main__':
   logger.error('error here')
